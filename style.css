@@ -15,6 +15,12 @@ body {
   font-family: 'Poppins', 'Outfit', sans-serif;
   color: var(--dark-text-color);
   transition: all 0.5s ease-in-out;
+
+   background-color: var(--dark-bg-color);
+  font-family: 'Poppins', 'Outfit', sans-serif;
+  color: var(--dark-text-color);
+  transition: all 0.5s ease-in-out;
+  overflow-x: hidden; 
 }
 
 .light-theme {
@@ -204,3 +210,4 @@ footer a:hover {
     padding: 40px 20px;
   }
 }
+
