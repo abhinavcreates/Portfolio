@@ -11,7 +11,7 @@ const Education = () => {
     {
       id: 1,
       title: "Bachelor of Computer Applications (BCA)",
-      grade: "7.75",
+      grade: "8.05",
       institution: "PSIT College of Higher Education",
       year: "2024 - Present",
       desc: "Focusing on Web Development, Data Structures, and Software Engineering.",

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-// Icons import (Make sure Instagram is here)
-import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaInstagram, FaDownload } from 'react-icons/fa';
 
 // Components
 import Education from './components/Education';
@@ -110,6 +109,14 @@ function App() {
                   <motion.a href="#contact" whileHover={{ scale: 1.05 }} className="px-8 py-3 border border-slate-600 hover:bg-slate-800 rounded-full font-semibold transition-all cursor-pointer">
                     Contact Me
                   </motion.a>
+                  <motion.a
+                   href="/CV.pdf"
+                   download="CV.pdf"
+                   whileHover={{ scale: 1.05 }}
+                   className="inline-flex items-center gap-2 px-8 py-3 border border-blue-500/40 text-blue-300 hover:bg-blue-500/10 rounded-full font-semibold transition-all cursor-pointer"
+>
+                <FaDownload className="text-sm" /> Download CV
+                </motion.a>
                 </div>
 
                {/* --- FIX 2: MOBILE SOCIAL ICONS (Sirf Phone pe dikhenge) --- */}
@@ -133,7 +140,7 @@ function App() {
     </a>
     
     <a 
-      href="https://www.instagram.com/the_abhinav_thakur_57/" 
+      href="https://www.instagram.com/the_abhinav_thakur_/" 
       target="_blank" 
       rel="noreferrer" 
       className="text-gray-400 hover:text-pink-500 text-2xl"
