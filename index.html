@@ -2,10 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>my-portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Abhinav Singh | Full Stack Developer</title>
+    <meta name="description" content="Portfolio of Abhinav Singh, a full stack developer building web apps with React, Node.js and Python. See projects, skills and download my CV." />
+    <meta name="theme-color" content="#020617" />
+
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f172a'/%3E%3Ctext x='32' y='45' font-size='38' font-weight='700' text-anchor='middle' fill='%2360a5fa' font-family='Arial,sans-serif'%3EA%3C/text%3E%3C/svg%3E" />
+
+    <!-- Link share karne pe (WhatsApp/LinkedIn) title + description  -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Abhinav Singh | Full Stack Developer" />
+    <meta property="og:description" content="Projects, skills and CV of Abhinav Singh. Built with React, Vite, Tailwind and Framer Motion." />
+    <meta property="og:url" content="https://abhinav-creates-portfolio.netlify.app" />
+    <!-- Preview image chahiye toh public/og-image.png (1200x630) rakho aur ye line uncomment karo:
+    <meta property="og:image" content="https://abhinav-creates-portfolio.netlify.app/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
+
+    <!--  white flash remove while loading JS -->
+    <style>
+      html, body { background: #020617; margin: 0; }
+    </style>
   </head>
   <body>
     <div id="root"></div>

@@ -4,10 +4,10 @@
 export const projects = [
   {
     id: 1,
-    title: "Project One",
+    title: "SchedViz",
     description: "Turns textbook OS scheduling algorithms into interactive, visual simulations.",
     tech: ["React", "Tailwind CSS", "C++", "MongoDB"],
-    image: "/images/projects/portfolio.png",
+    image: "/images/projects/schedviz.png",
     live: "https://sched-viz.vercel.app/",
     github: "https://github.com/abhinavcreates/SchedViz",
   },

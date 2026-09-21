@@ -3,9 +3,7 @@ import { motion, useReducedMotion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { projects } from "../data/projects";
 
-/* Screenshot with a graceful fallback: if the image is missing or the path is
-   wrong, a gradient tile with the project's initial is shown instead of a
-   broken-image icon. Clicking the image opens the live site. */
+
 function ProjectImage({ src, title, href }) {
   const [failed, setFailed] = useState(false);
   const showImage = src && !failed;
